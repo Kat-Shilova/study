@@ -1,0 +1,43 @@
+.service-item-box {
+  width: 570px;
+  margin-bottom: 25px;
+  background-color: white ;
+  border-radius: 15px;
+  padding: 200px 133px 40px 45px;
+  line-height: 2;
+}
+
+.sevices-item-details {
+  margin-bottom: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  background-image: url(../img/Прямоугольник\ 2\ копия\ 7@1x.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 50%;
+}
+
+.service-item-box-img_10 {
+  background-image: url(../img/10@2x.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.service-item-box-img_15 {
+  background-image: url(../img/15@2x.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.service-item-box-img_12 {
+  background-image: url(../img/12@2x.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.service-item-box-img_carlo-d-angolo {
+  background-image: url(../img/carlo-d-agnolo-aFxSh_l4fbY-unsplash@2x.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+

@@ -1,0 +1,66 @@
+.accomondation-article {
+  width: 373px;
+  margin-bottom: 25px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.accomondation-item-img {
+  border-radius: 15px 15px 0 0;
+}
+
+.accomondation-item-box {
+  padding: 40px 45px 45px;
+}
+
+.item_desc-price {
+  font-size: 20px;
+}
+
+.accomondation-item-desc {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.item_desc-lite-text {
+  color: #999999;
+}
+
+.rating-stars {
+  width: 15px;
+  color: #ce9f40;
+}
+
+.item_desc-name {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.item_desc-location {
+  margin-bottom: 20px;
+}
+
+.accomondation-item-rooms {
+  display: inline-block;
+  padding: 15px 20px;
+  font-weight: 700;
+  border: 1px solid #ce9f40;
+  border-radius: 15px;
+}
+
+.accomondation-details-box {
+  padding: 390px 40px 55px;
+  background-image: url(../img/41@2x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+.accomondation-details {
+  padding-right: 20px;
+  font-size: 20px;
+  color: white;
+  background: url(../img/прямоуголник-2-копия-16.svg) no-repeat center right;
+}

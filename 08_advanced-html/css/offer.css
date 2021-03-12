@@ -1,0 +1,37 @@
+.offer {
+  max-width: 600px;
+  height: 540px;
+  padding: 265px 230px 45px 45px;
+  border-radius: 15px;
+  background-image: url(../img/22@1x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.offer-title {
+  max-width: max-content;
+  padding-bottom: 15px;
+  color: white;
+  font-size: 66px;
+}
+
+.offer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 320px;
+}
+
+.offer-price {
+  font-size: 25px;
+  color: #666666;
+}
+
+.offer-details {
+  padding-right: 15px;
+  font-size: 15px;
+  background-image: url(../img/Прямоугольник\ 2\ копия\ 7@1x.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 50%;
+}

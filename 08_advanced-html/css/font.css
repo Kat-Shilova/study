@@ -1,0 +1,46 @@
+@font-face {
+  font-weight: 400;   /*задает толщину шрифта */
+  font-style: normal; /* задает начертание шрифта */
+  font-display: swap; /* при загрузке шрифта браузер сразу отрисовывает запасной шрифт, а после рендерит основной */
+            /* :auto - отрисовывает ширфт по насройкам браузера
+              :fallback - если за несколько миилисекунд основной щрифт не загрузился, используется запасной. через еще 3 секунды, если кастомный шрифт  все еще не загрузился, то остается запасной, а кастомный отрисовывается только после перезагрузки странцы
+              :optiona - если за несколько милисекунд основной шрифт не загрузился, то отрисовывается запасной, а основной появится только после перезагрузки */
+  font-family: 'Muller'; /* название семейства шрифтов */
+  src: local('Muller'), /* вызов шрифта с компьютера пользователя*/
+        url('../fonts/MullerRegular.woff2') format('woff2'), /* вызов шрифта с сервера*/
+        url('../fonts/MullerRegular.woff') format('woff');
+
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  font-family: 'Muller';
+  src: local('Muller'),
+        url('../fonts/MullerMedium.woff2') format('woff2'),
+        url('../fonts/MullerMedium.woff') format('woff');
+
+}
+
+@font-face {
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  font-family: 'Muller';
+  src: local('Muller'),
+        url('../fonts/MullerLight.woff2') format('woff2'),
+        url('../fonts/MullerLight.woff') format('woff');
+
+}
+
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-family: 'Muller';
+  src: local('Muller'),
+        url('../fonts/MullerBold.woff2') format('woff2'),
+        url('../fonts/MullerBold.woff') format('woff');
+
+}

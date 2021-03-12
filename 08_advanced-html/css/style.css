@@ -1,0 +1,117 @@
+/* изменяет способ расчета размеров блоков, с данным значеинем в размере блока будут учитываться: margin, padding, border */
+
+html {
+  box-sizing: border-box;
+}
+
+/* выводящиеся данные наследуют способ расчета рзмеров */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* задает минимальную ширину блоков, отменяет внешние дефолтые отступы, задаёт главный цвет фона и веб-безопасный шрифт 
+со стандартным начертанием */
+
+body {
+  min-width: 320px;
+  margin: 0;
+
+  background-color: #f1f1f1;  /*под проект*/
+  font-family: "Muller", Arial, sans-serif;  /*в "" свой шрифт под проект*/
+  
+
+  font-size: 16px;
+  color: #333333;
+  line-height: 1;
+}
+
+/* кнопки и формы наследуют шрифт родителя */
+
+button, input {
+  font: inherit;
+}
+
+/* делает изображение размером во весь экран */
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+/* отменяет дефолтные стили ссылок, делает их как текст родителя */
+
+a {
+  text-decoration: none;
+  color:#ce9f40;
+}
+
+/* отменяет стиль списков, убирает маркеры и отступы  */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* отменяет дефолтные отступы для заголовков и параграфов */
+
+h1, h2, h3, p {
+  padding: 0;
+  margin: 0;
+}
+
+/* container */
+/* ограничивает максимальный размер контента в браузере */
+
+.container {
+  max-width: 1170px;  /*под проект*/
+  margin: 0 auto;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section{
+  margin-bottom: 70px;
+}
+
+.section-title {
+  font-size: 30px;
+  padding-left: 50px;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+
+.list-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* при работе с float */
+/* продолжает поток после блока с float, а не под ним */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}

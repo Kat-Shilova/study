@@ -1,0 +1,48 @@
+.benefits-item-box {
+  width: 275px;
+  margin-bottom: 25px;
+  padding: 45px 55px 45px 45px;
+  background-color: white;
+  border-radius: 15px;
+  line-height: 2;
+  background-repeat: no-repeat;
+  background-size: 61px 59px;
+  background-origin: content-box;
+}
+
+.benefits-item-desc {
+  padding-top: 80px;
+}
+
+.benefits-item-box-icon_bathtub {
+  background-image: url(../img/bathtub.svg);
+}
+
+.benefits-item-box-icon_hanger {
+  background-image: url(../img/hanger.svg);
+}
+
+.benefits-item-box-icon_heating {
+  background-image: url(../img/heating.svg);
+}
+
+.benefits-item-box-icon_hotel-key {
+  background-image: url(../img/hotel-key.svg);
+}
+
+.benefits-item-box-icon_parking {
+  background-image: url(../img/parking.svg);
+}
+
+.benefits-item-box-icon_reception {
+  background-image: url(../img/reception.svg);
+}
+
+.benefits-item-box-icon_security-box {
+  background-image: url(../img/security-box.svg);
+}
+
+.benefits-item-box-icon_swimming-pool {
+  background-image: url(../img/swimming-pool.svg);
+}
+
